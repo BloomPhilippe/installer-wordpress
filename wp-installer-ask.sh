@@ -22,6 +22,6 @@ read URL
 mkdir $FOLDER
 cd $FOLDER
 wp core download --locale=fr_FR --force 
-wp core config --dbname="$DB" --dbprefix="$PREFIX" --dbuser="$USERNAMEDB" --dbpass="$PASSWORDEDB" --skip-check
-wp db create 
+wp core config --dbname="$DB" --dbprefix="$PREFIX" --dbuser="$USERNAMEDB" --dbpass="$PASSWORDEDB" --dbcharset="utf8" --dbcollate="utf8_general_ci" --skip-check
+wp db create
 wp core install --url="$URL" --title="$PROJECT" --admin_user="$USERNAME" --admin_email="$EMAIL" --admin_password="$PASSWORD"
