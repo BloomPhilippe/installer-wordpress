@@ -1,4 +1,4 @@
-# installer-wordpress
+# wordpressInstaller
 Installer WordPress en SHELL
 
 ## Prérequis
