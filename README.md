@@ -1,5 +1,8 @@
 # wordpressInstaller
+
 Installer WordPress en SHELL
+
+J'utilise WP-CLI pour téléchager, installer le WordPress et bien d'autres choses.
 
 ## Prérequis
 
@@ -17,12 +20,12 @@ composer global require wp-cli/wp-cli
 ## utilisation
 
 ```
-sh wp-installer.sh nom_du_projet nom_de_la_db
+sh wp-i.sh nom_du_projet nom_de_la_db
 ```
 
 ou 
 
 
 ```
-sh wp-installer-ask.sh
+sh wp-i-ask.sh
 ```
